@@ -1,0 +1,20 @@
+{
+  "name": "info-car-notifications",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --no-deprecation app.js",
+    "dev": "nodemon --no-deprecation app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0",
+    "pushover-notifications": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
